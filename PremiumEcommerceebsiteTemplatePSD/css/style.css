@@ -1,0 +1,116 @@
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+         url('../fonts/open-sans-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1025px;
+    margin: 0 auto;
+}
+.header-content {
+    padding: 20px 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #afafaf;
+}
+.logo a {
+    color: #3cc3b5;
+    font-family: "Lobster";
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 0.39;
+}
+.input-search { 
+    width: 434px;
+    height: 31px;
+    padding: 5px 8px;
+    border: 1px solid #e1e1e1;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+    background-origin: content-box;
+}
+.cart span {
+    color: #a1a1a1;
+    font-family: 'Oswald', sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 0.58; 
+    margin-left: 17px; 
+}
+.cart {
+    display: flex;
+    align-items: center;
+}
+.nav {
+    background-color: #4ccfc1;
+}
+.menu li a {  
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 0.9;
+    display: block;
+}
+.menu li {   
+    border-right: 1px solid #fff;
+    width: 10%;
+    text-align: center;
+}
+.menu {
+    padding: 9px 0;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.slider-bg {
+    background-color: #38c3b7;
+}
+.slider-content {
+    padding-top: 67px;
+    padding-bottom: 54px;
+}
+.slide {
+    padding: 0 80px;
+    display: flex;
+}
+.slide-text {
+    margin-left: 100px;
+    margin-right: 70px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.slide-text h2 { 
+    font-size: 61px;
+    line-height: 0.89;
+}
+.slide-text p {
+    font-family: "Open Sans";
+    font-size: 17px;
+    line-height: 1.65;
+}
+.slide-text .shop-now {
+    padding: 10px 25px;
+    display: inline-block;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-size: 27px;
+    line-height: 0.7;
+    border-radius: 10px;
+}
+.slider-products-slide {
+    display: flex;
+}
